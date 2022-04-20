@@ -1,0 +1,170 @@
+.main-header .sidebar-toggle:before {
+  content: "";
+}
+
+.main-header .logo {
+  height: 70px;
+  line-height: 70px;
+}
+
+.main-sidebar {
+  padding-top: 70px;
+}
+
+.content-wrap {
+  min-height: 0 !important;
+  overflow: auto;
+}
+
+.content-header {
+  padding-bottom: 1px;
+}
+
+.navbar-custom-menu>.navbar-nav>li>.dropdown-menu {
+  top: 50px;
+}
+
+@media (min-width: 992px){
+  .content-header>.breadcrumb {
+    top: 10px;
+  }
+
+  .hidden-md-sm {
+    display: inline-block;
+  }
+
+  .hidden-lg {
+    display: none !important;
+  }
+}
+
+@media (max-width: 991.9px) {
+  .hidden-md-sm {
+    display: none;
+  }
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  vertical-align: middle !important;
+  max-height: 55px;
+  padding: 5px !important;
+}
+
+table th, table td {
+  text-align: center;
+}
+
+.text-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-align: left !important;
+}
+
+.eyes, .re-eyes, .new-eyes {
+  top: 35px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.text-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-align: left !important;
+}
+
+.pagination .btn {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+}
+.thumb{
+  width: 300px;
+  height: 200px;
+  display: block;
+  overflow: hidden;
+  margin-left: 50px;
+  box-shadow: 1px 1px 5px #999;
+  border-radius: 20px;
+}
+.thumb img{
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+.thumb .thumb-cover{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  display: none;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.thumb:hover .thumb-cover{
+  display: flex;
+}
+.thumb i{
+  color: #00d0ff;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  margin-top: calc(50% - 65px);
+}
+input#imgUpload {
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: inline-block;
+  opacity: 0;
+}
+
+.mgl-2 {
+  margin-left: -2px !important;
+  transition: .5s;
+  padding-left: 10px !important;
+}
+
+.user-panel>.image>img {
+  max-width: 35px;
+}
+
+.user-panel.row {
+  transition: .5s;
+}
+
+.user-panel.row>.col-3 {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 50px;
+}
+
+.user-panel.row>.col-3 img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 60px;
+}
+
+#form-pswd {
+  display: none;
+}
+
+#form-pswd.show {
+  display: block !important;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
